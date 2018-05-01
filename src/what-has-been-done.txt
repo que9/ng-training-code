@@ -1,0 +1,23 @@
+Q1. What is module + CommonModule ?
+Q2. Why do we need to declare comps,pipes and dirs ?
+
+<div>
+    <comp1>        
+    </comp1>
+</div>
+
+<div>
+    <span> {{name | capitalize}}</span>
+    <other-compo enable-touch></other-compo>
+</div>
+
+QX Why NG does not bootstrap module automatically?
+Q3. Creaing inline styles and templates.
+ng g c name --inline-style --inline-template --flat
+
+Q4. Property resolution?
+    [source]="source" Vs source = "source"
+@5 RxJS
+@6 data.json() ? // JSON.parse(data._body)
+
+@7 Ctor, OnChanges, OnInit

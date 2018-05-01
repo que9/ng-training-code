@@ -1,12 +1,12 @@
 [
-    { "name": "george looney", "avatar": "../george-clooney.jpg", "desc": "Brief description description of your hero" },
-    { "name": "john depp", "avatar": "../john-depp.jpg", "desc": "It could be a long description" },
-    { "name": "scarllet johnson", "avatar": "../scarllet-johnson.jpg", "desc": "What do you like most about your hero" },
-    { "name": "jacky chain", "avatar": "../jacky-chain.jpg", "desc": "Brief description description of your hero" },
-    { "name": "jim carry", "avatar": "../jim-carry.jpg", "desc": "Your hero is the  best" },
-    { "name": "leonardo", "avatar": "../leonardo.jpg", "desc": "Brief description description of your hero" },
-    { "name": "vin diesel", "avatar": "../vin-diesel.jpg", "desc": "It could be a long description" },
-    { "name": "will smith", "avatar": "../will-smith.jpg", "desc": "What do you like most about your hero" },
-    { "name": "adam sandler", "avatar": "../adam-sandler.jpg", "desc": "Brief description description of your hero" },
-    { "name": "denial crag", "avatar": "../denial-crag.jpg", "desc": "Your hero is the  best" }
+    { "name": "george clooney", "avatar": "george-clooney.png", "desc": "Brief description description of your hero" },
+    { "name": "john depp", "avatar": "john-depp.png", "desc": "Brief description description of your hero It could be a long description", "favorite": true },
+    { "name": "scarllet johnson", "avatar": "scarllet-johnson.png", "desc": "What do you like most about your hero, type it here" },
+    { "name": "jacky chain", "avatar": "jacky-chain.png", "desc": "Brief description description of your hero", "favorite": true },
+    { "name": "jim carry", "avatar": "jim-carry.png", "desc": "Your hero is the  best Brief description description of your hero" },
+    { "name": "leonardo", "avatar": "leonardo.png", "desc": "Brief description description of your hero" },
+    { "name": "vin diesel", "avatar": "vin-diesel.png", "desc": "Brief description description of your hero It could be a long description" },
+    { "name": "will smith", "avatar": "will-smith.png", "desc": "What do you like most about your hero, heros are heros" },
+    { "name": "adam sandler", "avatar": "adam-sandler.png", "desc": "Brief description description of your hero. Adam Sandler" },
+    { "name": "denial crag", "avatar": "denial-crag.png", "desc": "Brief description description of your hero Your hero is the  best" }
 ]
