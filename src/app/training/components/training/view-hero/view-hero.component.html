@@ -1,4 +1,4 @@
-<figure class="figure text-center">
+<figure class="figure text-center" *ngIf="hero.name !== undefined">
     <img src="./assets/images/{{hero.avatar}}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
     <figcaption class="figure-caption">{{hero.name}}</figcaption>
 </figure>

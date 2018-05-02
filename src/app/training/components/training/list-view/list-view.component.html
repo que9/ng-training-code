@@ -7,18 +7,15 @@
             <span class="badge badge-primary badge-pill ">{{source.length}} / {{original.length}} / {{favorite}}</span>
         </li>
 
-        <li *ngFor="let hero of source" class="list-group-item d-flex justify-content-between lh-condensed">
+        <li *ngFor="let hero of source" class="list-group-item d-flex justify-content-left_ _lh-condensed">
             <div class="avatar mr-2" (click)="selectHero( hero )">
                 <img src="./assets/images/{{hero.avatar}} " />
             </div>
-            <div class="mr-2 ">
+            <div class="mr-2">
                 <h6 class="my-0 ">{{hero.name}}</h6>
                 <small class="text-muted ">{{hero.desc}}</small>
             </div>
-            <span>
-                <i class="fa fa-favorite "></i>
-            </span>
-            <span class="text-muted ">$12</span>
+            <span class="text-muted float-right" *ngIf="hero.favorite">Fav</span>
         </li>
 
         <div class="alert alert-warning mt-2" role="alert" *ngIf="!source.length">

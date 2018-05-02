@@ -8,7 +8,6 @@ export class BroadcastService {
     return BroadcastService._count;
   }
 
-
   public eventHub: EventEmitter<Object> = new EventEmitter<Object>();
   constructor() {
     BroadcastService._count++;
